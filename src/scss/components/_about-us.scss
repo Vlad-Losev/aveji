@@ -1,0 +1,121 @@
+.about-us {
+  margin-bottom: 120px;
+}
+
+.about-us__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__title {
+  width: 470px;
+  font-family: Helvetica;
+  font-size: 48px;
+  line-height: 66px;
+  font-weight: 400;
+}
+
+.about-us__title__2 {
+  display: none;
+}
+
+.about-us__wrapper {
+  padding-top: 30px;
+}
+
+.about-us__text {
+  width: 425px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 44px;
+}
+
+.about-us__text__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.about-us__description__item {
+  width: 146px;
+}
+
+.about-us__description__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.about-us__description__item__num {
+  font-family: Helvetica;
+  font-size: 36px;
+  line-height: 49px;
+}
+
+.about-us__description__item__text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media(max-width: 1024px) {
+  .about-us {
+    margin-bottom: 80px;
+  }
+
+  .about-us__title {
+    width: 375px;
+    font-size: 38px;
+    line-height: 52px;
+  }
+
+  .about-us__description__item__num {
+    font-size: 30px;
+    line-height: 41px;
+  }
+}
+
+@media(max-width: 875px) {
+  .about-us__container {
+    display: block;
+  }
+
+  .about-us__title {
+    display: none;
+  }
+
+  .about-us__title__2 {
+    display: block;
+  }
+
+  .about-us__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us__text {
+    align-self: flex-end;
+  }
+}
+
+@media(max-width: 500px) {
+  .about-us {
+    margin-bottom: 48px;
+  }
+
+  .about-us__title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+
+  .about-us__text {
+    width: auto;
+    max-width: 425px;
+    margin-bottom: 32px;
+  }
+
+  .about-us__description__item__num {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .about-us__description__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
